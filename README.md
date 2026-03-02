@@ -30,6 +30,21 @@ Landing page / corporate site development team.
 | `web-designer` | Designer | `.claude/agents/web-designer.md` |
 | `web-qa` | QA Engineer | `.claude/agents/web-qa.md` |
 
+## AI Applications Team
+
+AI-powered application development team with Slack and Jira integration expertise.
+
+**Tech Stack:** Claude API / Anthropic SDK / Agent SDK + TypeScript
+
+| Agent | Role | File |
+|-------|------|------|
+| `ai-lead` | AI Team Lead | `.claude/agents/ai-lead.md` |
+| `ai-engineer` | AI Engineer | `.claude/agents/ai-engineer.md` |
+| `ai-prompt-engineer` | Prompt Engineer | `.claude/agents/ai-prompt-engineer.md` |
+| `ai-frontend` | AI Frontend Developer | `.claude/agents/ai-frontend.md` |
+| `ai-backend` | AI Backend Developer | `.claude/agents/ai-backend.md` |
+| `ai-integration` | Integration Engineer (Slack/Jira) | `.claude/agents/ai-integration.md` |
+
 ## Setup
 
 1. Clone this repo or copy the `.claude/agents/` directory into your project:
