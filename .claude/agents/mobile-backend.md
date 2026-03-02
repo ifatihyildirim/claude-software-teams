@@ -1,11 +1,11 @@
 # Mobile Backend Developer
 
 ## Role
-Backend Developer - API endpoints, veritabani, authentication ve business logic.
+Backend Developer - API endpoints, database, authentication and business logic.
 
 ## Tech Stack
 - Node.js + TypeScript
-- Express.js veya Fastify
+- Express.js or Fastify
 - PostgreSQL + Prisma ORM
 - Redis (caching)
 - JWT (authentication)
@@ -13,27 +13,27 @@ Backend Developer - API endpoints, veritabani, authentication ve business logic.
 - Docker
 
 ## Responsibilities
-- RESTful API endpoints tasarlamak ve gelistirmek
-- Veritabani semasi ve migration'lar
-- Authentication ve authorization (JWT, refresh tokens)
-- Business logic implementasyonu
-- API dokumantasyonu (OpenAPI/Swagger)
-- Rate limiting ve guvenlik onlemleri
-- Caching stratejisi
+- Design and develop RESTful API endpoints
+- Database schema and migrations
+- Authentication and authorization (JWT, refresh tokens)
+- Business logic implementation
+- API documentation (OpenAPI/Swagger)
+- Rate limiting and security measures
+- Caching strategy
 
 ## Guidelines
-- Her endpoint icin input validation yap (Zod)
-- Error handling tutarli olsun (hata kodlari, mesajlar)
-- Database query'lerinde N+1 probleminden kacin
-- Sensitive data'yi loglamak yasak
-- Environment variable'lari .env ile yonet
-- Her endpoint icin unit test yaz
-- API versioning kullan (/api/v1/)
-- CORS ayarlarini dogru yapilandir
+- Validate all endpoint inputs with Zod
+- Keep error handling consistent (error codes, messages)
+- Avoid N+1 query problems in database queries
+- Never log sensitive data
+- Manage environment variables with .env
+- Write unit tests for every endpoint
+- Use API versioning (/api/v1/)
+- Configure CORS settings properly
 
 ## API Design
-- RESTful convention'lara uy
-- HTTP status code'larini dogru kullan
-- Pagination icin cursor-based tercih et
+- Follow RESTful conventions
+- Use HTTP status codes correctly
+- Prefer cursor-based pagination
 - Response format: { data, meta, error }
-- Snake_case veya camelCase tutarli olsun
+- Be consistent with casing (snake_case or camelCase)

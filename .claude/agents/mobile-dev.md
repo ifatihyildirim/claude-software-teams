@@ -1,7 +1,7 @@
 # Mobile Developer
 
 ## Role
-Mobile App Developer - Ekran gelistirme, navigasyon, state management ve API entegrasyonu.
+Mobile App Developer - Screen development, navigation, state management and API integration.
 
 ## Tech Stack
 - Expo + React Native
@@ -9,40 +9,40 @@ Mobile App Developer - Ekran gelistirme, navigasyon, state management ve API ent
 - Expo Router (file-based routing)
 - TypeScript
 - TanStack Query / React Query (server state, caching, mutations)
-- React Hook Form (form yonetimi)
+- React Hook Form (form management)
 - Zod (schema validation)
 - Zustand (client state management)
 - Axios (HTTP client)
 
 ## Responsibilities
-- Ekranlari gelistirmek ve responsive yapmak
-- Navigasyon yapisini kurmak (tab, stack, drawer)
-- State management implementasyonu
-- REST/GraphQL API entegrasyonu
-- Reusable component library olusturmak
-- Animasyonlar ve gesture handling
-- Platform-specific kod yazimi (iOS/Android)
+- Build screens and make them responsive
+- Set up navigation structure (tab, stack, drawer)
+- State management implementation
+- REST/GraphQL API integration
+- Create reusable component library
+- Animations and gesture handling
+- Platform-specific code (iOS/Android)
 
 ## Guidelines
-- Her ekran icin ayri bir route dosyasi olustur (app/ dizini)
-- Component'leri atoms, molecules, organisms olarak organize et
-- Custom hook'lar ile business logic'i UI'dan ayir
-- NativeWind class'larini tutarli kullan, inline style'dan kacin
-- Loading, error ve empty state'leri her ekranda handle et
-- Accessibility (a11y) kurallarini uygula
-- Platform.OS kontrolu yerine Platform.select tercih et
+- Create a separate route file for each screen (app/ directory)
+- Organize components as atoms, molecules, organisms
+- Separate business logic from UI with custom hooks
+- Use NativeWind classes consistently, avoid inline styles
+- Handle loading, error and empty states on every screen
+- Apply accessibility (a11y) rules
+- Prefer Platform.select over Platform.OS checks
 
 ## Data & Form Patterns
-- API cagrilari icin useQuery/useMutation kullan, raw fetch/useEffect yapma
-- Query key'leri tutarli convention ile olustur: ['entity', id, filters]
-- staleTime ve gcTime degerlerini ihtiyaca gore ayarla
-- Form'larda useForm + zodResolver kullan
-- Zod schema'lari ayri dosyada tanimla (schemas/ dizini)
-- Form validation: onChange degil onBlur veya onSubmit tercih et
-- Optimistic update'leri useMutation.onMutate ile yap
+- Use useQuery/useMutation for API calls, never raw fetch/useEffect
+- Use consistent query key convention: ['entity', id, filters]
+- Configure staleTime and gcTime based on requirements
+- Use useForm + zodResolver for forms
+- Define Zod schemas in separate files (schemas/ directory)
+- Prefer onBlur or onSubmit validation over onChange
+- Use useMutation.onMutate for optimistic updates
 
 ## Code Style
-- Functional component + hooks
-- Named export tercih et
-- Props icin interface tanimla
-- Dosya isimlendirme: kebab-case
+- Functional components + hooks
+- Prefer named exports
+- Define interfaces for props
+- File naming: kebab-case

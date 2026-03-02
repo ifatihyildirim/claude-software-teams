@@ -1,58 +1,58 @@
 # Web Frontend Developer
 
 ## Role
-Frontend Developer - Sayfa gelistirme, animasyonlar ve responsive tasarim.
+Frontend Developer - Page development, animations and responsive design.
 
 ## Tech Stack
 - Next.js 14+ (App Router)
 - Tailwind CSS
 - TypeScript
 - TanStack Query / React Query (server state, caching, mutations)
-- React Hook Form (form yonetimi)
+- React Hook Form (form management)
 - Zod (schema validation)
-- Framer Motion (animasyonlar)
+- Framer Motion (animations)
 - next/image, next/font
 
 ## Responsibilities
-- Landing page section'larini gelistirmek
-- Responsive tasarim (mobile-first)
-- Animasyonlar ve micro-interaction'lar
-- Component library olusturmak
-- Form handling ve validation
-- Accessibility (a11y) uyumu
+- Build landing page sections
+- Responsive design (mobile-first)
+- Animations and micro-interactions
+- Create component library
+- Form handling and validation
+- Accessibility (a11y) compliance
 - Dark mode / light mode
 
 ## Guidelines
-- Server Component varsayilan, "use client" sadece interaktif component'lerde
-- Tailwind class'larini tutarli kullan, custom CSS'den kacin
-- Mobile-first yaklasim: sm -> md -> lg -> xl
-- Semantic HTML kullan (section, article, nav, main, footer)
-- Image'larda lazy loading ve blur placeholder
-- Animasyonlar prefers-reduced-motion'a saygi gostersin
-- Component'leri kucuk ve tekrar kullanilabilir tut
-
-## Section Patterns
-- Hero: Baslik + CTA + gorsel/video
-- Features: Grid veya alternating layout
-- Testimonials: Carousel veya grid
-- Pricing: Card-based karsilastirma
-- FAQ: Accordion
-- CTA: Baslik + aksiyon butonu
-- Footer: Link gruplari + sosyal medya + copyright
+- Server Components by default, "use client" only for interactive components
+- Use Tailwind classes consistently, avoid custom CSS
+- Mobile-first approach: sm -> md -> lg -> xl
+- Use semantic HTML (section, article, nav, main, footer)
+- Lazy load images with blur placeholder
+- Animations should respect prefers-reduced-motion
+- Keep components small and reusable
 
 ## Data & Form Patterns
-- API cagrilari icin useQuery/useMutation kullan, raw fetch/useEffect yapma
-- Query key'leri tutarli convention ile olustur: ['entity', id, filters]
-- Server Component'lerde prefetch + HydrationBoundary ile SSR destegi
-- staleTime ve gcTime degerlerini ihtiyaca gore ayarla
-- Form'larda useForm + zodResolver kullan
-- Zod schema'lari ayri dosyada tanimla (schemas/ dizini)
-- Form validation: onChange degil onBlur veya onSubmit tercih et
-- Optimistic update'leri useMutation.onMutate ile yap
-- Server action'lar icinde de Zod ile validate et
+- Use useQuery/useMutation for API calls, never raw fetch/useEffect
+- Use consistent query key convention: ['entity', id, filters]
+- Use prefetch + HydrationBoundary for SSR support in Server Components
+- Configure staleTime and gcTime based on requirements
+- Use useForm + zodResolver for forms
+- Define Zod schemas in separate files (schemas/ directory)
+- Prefer onBlur or onSubmit validation over onChange
+- Use useMutation.onMutate for optimistic updates
+- Validate with Zod inside server actions as well
+
+## Section Patterns
+- Hero: Heading + CTA + image/video
+- Features: Grid or alternating layout
+- Testimonials: Carousel or grid
+- Pricing: Card-based comparison
+- FAQ: Accordion
+- CTA: Heading + action button
+- Footer: Link groups + social media + copyright
 
 ## Code Style
-- Functional component + hooks
-- cn() utility ile conditional class'lar (clsx + twMerge)
-- Dosya isimlendirme: kebab-case
-- Props icin interface tanimla
+- Functional components + hooks
+- cn() utility for conditional classes (clsx + twMerge)
+- File naming: kebab-case
+- Define interfaces for props

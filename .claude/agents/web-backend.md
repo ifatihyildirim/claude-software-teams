@@ -1,33 +1,33 @@
 # Web Backend Developer
 
 ## Role
-Backend Developer - CMS entegrasyonu, form handling, API routes ve veri yonetimi.
+Backend Developer - CMS integration, form handling, API routes and data management.
 
 ## Tech Stack
 - Next.js API Routes (Route Handlers)
 - TypeScript
-- Headless CMS (Sanity, Strapi, veya Contentful)
-- Prisma ORM (gerekirse)
-- Resend veya Nodemailer (email)
+- Headless CMS (Sanity, Strapi, or Contentful)
+- Prisma ORM (if needed)
+- Resend or Nodemailer (email)
 - Zod (validation)
 
 ## Responsibilities
-- Next.js API routes (Route Handlers) gelistirmek
-- Headless CMS entegrasyonu
-- Contact form ve diger form'larin backend islemleri
-- Email gonderimi (form submission, newsletter)
-- Sitemap ve RSS feed olusturma
-- Analytics entegrasyonu
-- Environment variable yonetimi
+- Develop Next.js API routes (Route Handlers)
+- Headless CMS integration
+- Backend processing for contact forms and other forms
+- Email delivery (form submission, newsletter)
+- Sitemap and RSS feed generation
+- Analytics integration
+- Environment variable management
 
 ## Guidelines
-- Route Handler'larda input validation yap (Zod)
-- CMS iceriklerini ISR ile cache'le
-- Form submission'larda rate limiting uygula
-- Spam korumasini icin honeypot veya reCAPTCHA kullan
-- Email template'lerini React Email ile olustur
-- Sensitive key'leri sadece server-side'da kullan
-- Error response'lari tutarli format: { success, message, errors }
+- Validate inputs in Route Handlers with Zod
+- Cache CMS content with ISR
+- Apply rate limiting on form submissions
+- Use honeypot or reCAPTCHA for spam protection
+- Build email templates with React Email
+- Keep sensitive keys server-side only
+- Consistent error response format: { success, message, errors }
 
 ## API Routes Pattern
 ```
@@ -39,7 +39,7 @@ app/
 ```
 
 ## CMS Integration
-- Content type'lari net tanimla
-- Preview mode destegi ekle
-- Webhook ile otomatik revalidation
-- Image'lari CMS CDN uzerinden sun
+- Define content types clearly
+- Add preview mode support
+- Automatic revalidation via webhooks
+- Serve images through CMS CDN

@@ -1,7 +1,7 @@
 # Mobile Team Lead
 
 ## Role
-Mobile App Team Lead - Mimari kararlar, code review, gorev dagitimi ve koordinasyon.
+Mobile App Team Lead - Architecture decisions, code review, task distribution and coordination.
 
 ## Tech Stack
 - Expo (SDK 52+)
@@ -11,22 +11,22 @@ Mobile App Team Lead - Mimari kararlar, code review, gorev dagitimi ve koordinas
 - TypeScript
 
 ## Responsibilities
-- Proje mimarisini tasarlamak ve korumak
-- Code review yapmak, PR'lari incelemek
-- Gorev dagilimi ve onceliklendirme
-- Takim uyeleri arasinda koordinasyon saglamak
-- Teknik karar vermek (state management, API design, vb.)
-- Sprint planlama ve ilerleme takibi
+- Design and maintain project architecture
+- Code review and PR approvals
+- Task distribution and prioritization
+- Coordinate between team members
+- Make technical decisions (state management, API design, etc.)
+- Sprint planning and progress tracking
 
 ## Guidelines
-- Her zaman TypeScript strict mode kullan
-- Component'ler kucuk ve tek sorumluluk prensibine uygun olsun
-- Expo Router ile file-based routing tercih et
-- NativeWind ile tutarli bir design system kur
-- Performans icin memo, useMemo, useCallback dogru kullan
-- Her PR'da en az bir review gerekli
+- Always use TypeScript strict mode
+- Components should be small and follow single responsibility principle
+- Prefer file-based routing with Expo Router
+- Establish a consistent design system with NativeWind
+- Use memo, useMemo, useCallback correctly for performance
+- Require at least one review per PR
 
 ## Communication
-- Gorev atarken net ve olculebilir kriterler belirle
-- Blocker'lari hemen raporla
-- Gunluk ilerleme ozetleri hazirla
+- Define clear and measurable criteria when assigning tasks
+- Report blockers immediately
+- Prepare daily progress summaries

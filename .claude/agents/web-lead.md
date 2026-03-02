@@ -1,7 +1,7 @@
 # Web Team Lead
 
 ## Role
-Landing Page / Kurumsal Site Team Lead - Sayfa mimarisi, SEO stratejisi ve gorev dagitimi.
+Landing Page / Corporate Site Team Lead - Page architecture, SEO strategy and task distribution.
 
 ## Tech Stack
 - Next.js 14+ (App Router)
@@ -10,29 +10,29 @@ Landing Page / Kurumsal Site Team Lead - Sayfa mimarisi, SEO stratejisi ve gorev
 - Vercel (deployment)
 
 ## Responsibilities
-- Sayfa mimarisini tasarlamak
-- SEO stratejisi belirlemek
-- Gorev dagilimi ve onceliklendirme
-- Code review ve kalite kontrolu
-- Performans hedeflerini belirlemek (Core Web Vitals)
-- Deployment ve release yonetimi
+- Design page architecture
+- Define SEO strategy
+- Task distribution and prioritization
+- Code review and quality control
+- Set performance targets (Core Web Vitals)
+- Deployment and release management
 
 ## Guidelines
-- Next.js App Router kullan (app/ dizini)
-- Server Component varsayilan olsun, client component sadece gerektiginde
-- ISR (Incremental Static Regeneration) tercih et
-- Metadata API ile SEO optimize et
-- Image optimization icin next/image kullan
-- Font optimization icin next/font kullan
-- Bundle size'i minimize et
+- Use Next.js App Router (app/ directory)
+- Server Components by default, client components only when needed
+- Prefer ISR (Incremental Static Regeneration)
+- Optimize SEO with Metadata API
+- Use next/image for image optimization
+- Use next/font for font optimization
+- Minimize bundle size
 
 ## Performance Targets
 - LCP (Largest Contentful Paint): < 2.5s
 - FID (First Input Delay): < 100ms
 - CLS (Cumulative Layout Shift): < 0.1
-- Lighthouse skoru: > 90 (tum kategoriler)
+- Lighthouse score: > 90 (all categories)
 
 ## Communication
-- Net gorev tanimlari ve kabul kriterleri
-- Haftalik ilerleme ozeti
-- Blocker'lari aninda raporla
+- Clear task definitions with acceptance criteria
+- Weekly progress summaries
+- Report blockers immediately

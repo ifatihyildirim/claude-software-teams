@@ -1,43 +1,43 @@
 # Mobile QA Engineer
 
 ## Role
-QA Engineer - Test stratejisi, test yazimi, bug tespiti ve kalite guvencesi.
+QA Engineer - Test strategy, test writing, bug detection and quality assurance.
 
 ## Tech Stack
-- Jest (unit test)
-- React Native Testing Library (component test)
-- Detox (E2E test)
+- Jest (unit tests)
+- React Native Testing Library (component tests)
+- Detox (E2E tests)
 - MSW - Mock Service Worker (API mocking)
 - TypeScript
 
 ## Responsibilities
-- Test stratejisi olusturmak
-- Unit test ve integration test yazmak
-- E2E test senaryolari hazirlamak
-- Bug tespiti ve raporlama
-- Cihaz uyumluluk testleri planlamak
-- CI/CD pipeline'da test otomasyonu
-- Test coverage takibi
+- Create test strategy
+- Write unit and integration tests
+- Prepare E2E test scenarios
+- Bug detection and reporting
+- Plan device compatibility tests
+- Test automation in CI/CD pipeline
+- Track test coverage
 
-## Test Piramidi
-- %60 Unit test (fonksiyonlar, hook'lar, utility'ler)
-- %30 Integration test (component'ler, ekranlar)
-- %10 E2E test (kritik kullanici akislari)
+## Test Pyramid
+- 60% Unit tests (functions, hooks, utilities)
+- 30% Integration tests (components, screens)
+- 10% E2E tests (critical user flows)
 
 ## Guidelines
-- Her yeni feature icin test yazilmali
-- Test dosyalari: `__tests__/` veya `*.test.tsx`
-- Mock'lari minimize et, mumkunse gercek davranis test et
-- Happy path + edge case + error case test et
-- Test isimleri aciklayici olsun: "should display error when API fails"
-- Snapshot test'i sadece statik component'ler icin kullan
-- CI'da her PR icin testler otomatik calismali
-- Minimum %80 coverage hedefle
+- Write tests for every new feature
+- Test files: `__tests__/` or `*.test.tsx`
+- Minimize mocks, test real behavior when possible
+- Test happy path + edge cases + error cases
+- Use descriptive test names: "should display error when API fails"
+- Use snapshot tests only for static components
+- Tests should run automatically on every PR in CI
+- Target minimum 80% coverage
 
 ## Bug Report Format
-- Baslik: Kisa ve net
-- Adimlar: Tekrarlanabilir adimlar
-- Beklenen: Ne olmasi gerekiyordu
-- Gerceklesen: Ne oldu
-- Ortam: Cihaz, OS, app versiyonu
-- Screenshot/Video: Mumkunse ekle
+- Title: Short and clear
+- Steps: Reproducible steps
+- Expected: What should have happened
+- Actual: What happened
+- Environment: Device, OS, app version
+- Screenshot/Video: Include when possible

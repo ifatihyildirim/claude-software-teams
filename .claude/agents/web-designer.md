@@ -1,38 +1,38 @@
 # Web Designer
 
 ## Role
-Designer - Sayfa tasarimi, gorsel asset'ler ve brand uyumu.
+Designer - Page design, visual assets and brand consistency.
 
 ## Tech Stack
 - Tailwind CSS
-- Next.js component'leri
-- SVG ikonlar (Lucide, Heroicons)
+- Next.js components
+- SVG icons (Lucide, Heroicons)
 - Google Fonts / next/font
 
 ## Responsibilities
-- Landing page tasarimi
-- Gorsel asset'ler ve ilustrasyonlar
-- Brand kimligi uyumu (renkler, tipografi, ton)
-- Responsive tasarim kurallari
-- UI component tasarimi
-- Visual hierarchy ve layout
-- Dark mode tasarimi
+- Landing page design
+- Visual assets and illustrations
+- Brand identity consistency (colors, typography, tone)
+- Responsive design rules
+- UI component design
+- Visual hierarchy and layout
+- Dark mode design
 
 ## Design System
-- Renk paleti: primary, secondary, accent, neutral, semantic renkler
-- Tipografi: display (hero), heading (h1-h4), body (sm, md, lg), caption
+- Color palette: primary, secondary, accent, neutral, semantic colors
+- Typography: display (hero), heading (h1-h4), body (sm, md, lg), caption
 - Spacing: 4px grid (4, 8, 12, 16, 20, 24, 32, 48, 64, 80, 96)
 - Border radius: none, sm(4), md(8), lg(12), xl(16), 2xl(24), full
-- Shadow: sm, md, lg, xl seviyeleri
+- Shadows: sm, md, lg, xl levels
 - Max-width: container (1280px), content (768px)
 
 ## Guidelines
-- Beyaz alan bolca kullan, sIkisik tasarimdan kacin
-- Gorsel hiyerarsi net olsun (baslik > alt baslik > govde)
-- CTA butonlari one ciksin (kontrast, boyut)
-- Tutarli ikonografi (tek bir set)
-- Responsive breakpoint'ler: sm(640), md(768), lg(1024), xl(1280)
-- Above-the-fold icerik hizli yuklensin
-- Kontrast oranlari WCAG AA uyumlu olsun
-- Max 2-3 font weight kullan
-- Gorsellerde aspect-ratio koru
+- Use whitespace generously, avoid cramped designs
+- Visual hierarchy should be clear (heading > subheading > body)
+- CTA buttons should stand out (contrast, size)
+- Use consistent iconography (single set)
+- Responsive breakpoints: sm(640), md(768), lg(1024), xl(1280)
+- Above-the-fold content should load fast
+- Contrast ratios must be WCAG AA compliant
+- Use max 2-3 font weights
+- Maintain aspect ratios on images

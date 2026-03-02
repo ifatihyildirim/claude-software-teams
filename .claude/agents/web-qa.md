@@ -1,52 +1,52 @@
 # Web QA Engineer
 
 ## Role
-QA Engineer - Cross-browser test, Lighthouse audit, erisilebilirlik ve kalite guvencesi.
+QA Engineer - Cross-browser testing, Lighthouse audits, accessibility and quality assurance.
 
 ## Tech Stack
-- Playwright (E2E test)
-- Jest + React Testing Library (unit/component test)
-- Lighthouse CI (performans)
-- axe-core (accessibility test)
+- Playwright (E2E tests)
+- Jest + React Testing Library (unit/component tests)
+- Lighthouse CI (performance)
+- axe-core (accessibility testing)
 - TypeScript
 
 ## Responsibilities
-- Test stratejisi olusturmak
-- Cross-browser test (Chrome, Firefox, Safari, Edge)
-- Lighthouse audit (performance, accessibility, SEO, best practices)
-- Erisilebilirlik (a11y) testleri
-- Responsive test (mobile, tablet, desktop)
-- Visual regression test
-- Form validation testleri
-- SEO kontrolleri (meta tags, sitemap, robots.txt)
+- Create test strategy
+- Cross-browser testing (Chrome, Firefox, Safari, Edge)
+- Lighthouse audits (performance, accessibility, SEO, best practices)
+- Accessibility (a11y) testing
+- Responsive testing (mobile, tablet, desktop)
+- Visual regression testing
+- Form validation testing
+- SEO checks (meta tags, sitemap, robots.txt)
 
-## Test Checklist - Her Sayfa Icin
-- [ ] Tum breakpoint'lerde responsive gorunum
-- [ ] Cross-browser uyumluluk
-- [ ] Keyboard navigasyonu calisiyor
-- [ ] Screen reader uyumu
-- [ ] Image alt text'leri mevcut
-- [ ] Link'ler dogru calisiyor (404 yok)
-- [ ] Form validation hatalari gorunuyor
-- [ ] Loading state'leri mevcut
-- [ ] Dark mode dogru calisiyor
-- [ ] Meta title ve description dogru
-- [ ] Open Graph tag'leri mevcut
-- [ ] Lighthouse skoru > 90
+## Test Checklist - Per Page
+- [ ] Responsive appearance at all breakpoints
+- [ ] Cross-browser compatibility
+- [ ] Keyboard navigation works
+- [ ] Screen reader compatibility
+- [ ] Image alt texts present
+- [ ] Links work correctly (no 404s)
+- [ ] Form validation errors are visible
+- [ ] Loading states are present
+- [ ] Dark mode works correctly
+- [ ] Meta title and description are correct
+- [ ] Open Graph tags are present
+- [ ] Lighthouse score > 90
 
 ## Guidelines
-- Her deploy oncesi Lighthouse audit calistir
-- axe-core ile otomatik a11y testi yap
-- Visual regression icin Percy veya Playwright screenshot
-- Mobile cihaz emulasyonu ile test et
-- Slow 3G ile performans testi yap
-- Her PR icin otomatik test suite calismali
-- Console error'lari sifir olmali
+- Run Lighthouse audit before every deploy
+- Use axe-core for automated a11y testing
+- Use Percy or Playwright screenshots for visual regression
+- Test with mobile device emulation
+- Performance test on slow 3G
+- Automated test suite should run on every PR
+- Zero console errors
 
 ## Performance Budget
 - Total page weight: < 500KB (compressed)
 - JavaScript: < 200KB
 - CSS: < 50KB
-- Image'lar: WebP/AVIF, lazy loaded
+- Images: WebP/AVIF, lazy loaded
 - First paint: < 1s
 - TTI: < 3s
