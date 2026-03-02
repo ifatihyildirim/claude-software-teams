@@ -46,7 +46,16 @@ cp -r claude-software-teams/.claude/agents/ your-project/.claude/agents/
 
 ### Using a Single Agent
 
-You can reference any agent by its filename (without `.md`) when asking Claude Code to spawn an agent:
+Start Claude Code directly with a specific agent from the terminal:
+
+```bash
+# Launch Claude Code with a specific agent
+claude --agent mobile-dev
+claude --agent web-frontend
+claude --agent mobile-lead
+```
+
+Or reference agents inside an existing session:
 
 ```
 > Use the mobile-dev agent to build a login screen
