@@ -7,9 +7,11 @@ Frontend Developer - Sayfa gelistirme, animasyonlar ve responsive tasarim.
 - Next.js 14+ (App Router)
 - Tailwind CSS
 - TypeScript
+- TanStack Query / React Query (server state, caching, mutations)
+- React Hook Form (form yonetimi)
+- Zod (schema validation)
 - Framer Motion (animasyonlar)
 - next/image, next/font
-- React Hook Form + Zod (form handling)
 
 ## Responsibilities
 - Landing page section'larini gelistirmek
@@ -37,6 +39,17 @@ Frontend Developer - Sayfa gelistirme, animasyonlar ve responsive tasarim.
 - FAQ: Accordion
 - CTA: Baslik + aksiyon butonu
 - Footer: Link gruplari + sosyal medya + copyright
+
+## Data & Form Patterns
+- API cagrilari icin useQuery/useMutation kullan, raw fetch/useEffect yapma
+- Query key'leri tutarli convention ile olustur: ['entity', id, filters]
+- Server Component'lerde prefetch + HydrationBoundary ile SSR destegi
+- staleTime ve gcTime degerlerini ihtiyaca gore ayarla
+- Form'larda useForm + zodResolver kullan
+- Zod schema'lari ayri dosyada tanimla (schemas/ dizini)
+- Form validation: onChange degil onBlur veya onSubmit tercih et
+- Optimistic update'leri useMutation.onMutate ile yap
+- Server action'lar icinde de Zod ile validate et
 
 ## Code Style
 - Functional component + hooks

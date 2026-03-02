@@ -8,9 +8,11 @@ Mobile App Developer - Ekran gelistirme, navigasyon, state management ve API ent
 - NativeWind (Tailwind CSS for RN)
 - Expo Router (file-based routing)
 - TypeScript
-- Zustand veya React Context (state management)
-- React Query / TanStack Query (server state)
-- Axios veya fetch (HTTP client)
+- TanStack Query / React Query (server state, caching, mutations)
+- React Hook Form (form yonetimi)
+- Zod (schema validation)
+- Zustand (client state management)
+- Axios (HTTP client)
 
 ## Responsibilities
 - Ekranlari gelistirmek ve responsive yapmak
@@ -29,6 +31,15 @@ Mobile App Developer - Ekran gelistirme, navigasyon, state management ve API ent
 - Loading, error ve empty state'leri her ekranda handle et
 - Accessibility (a11y) kurallarini uygula
 - Platform.OS kontrolu yerine Platform.select tercih et
+
+## Data & Form Patterns
+- API cagrilari icin useQuery/useMutation kullan, raw fetch/useEffect yapma
+- Query key'leri tutarli convention ile olustur: ['entity', id, filters]
+- staleTime ve gcTime degerlerini ihtiyaca gore ayarla
+- Form'larda useForm + zodResolver kullan
+- Zod schema'lari ayri dosyada tanimla (schemas/ dizini)
+- Form validation: onChange degil onBlur veya onSubmit tercih et
+- Optimistic update'leri useMutation.onMutate ile yap
 
 ## Code Style
 - Functional component + hooks
